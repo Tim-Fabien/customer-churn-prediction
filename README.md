@@ -1,25 +1,28 @@
-# Customer Churn Prediction Starter
+# Customer Churn Prediction Starter 🚀
 
-## Business Problem
-Kundenabwanderung kostet Unternehmen signifikant Umsatz. Dieses Projekt zeigt, wie ein ML-Modell gefährdete Kunden identifizieren kann.
+## 🧩 Business Context
+Customer churn is one of the most expensive challenges for subscription-based and B2C businesses.  
+Every lost customer means lost recurring revenue **and higher acquisition costs** to replace them.  
 
-## Lösung
-- Databricks + PySpark zur Datenverarbeitung
-- MLflow zur Modellversionierung & Nachverfolgbarkeit
+👉 The goal of this repo is to **show how to quickly prototype a churn prediction model** that can help marketing and retention teams act *before* a customer leaves.
 
-## Business Impact
-- Frühwarnsystem für Churn
-- Grundlage für gezieltes Retention Marketing
+---
 
-## Tech Stack
-- Python, PySpark
-- MLflow
-- Databricks (optional)
+## 💡 What this project demonstrates
+- End-to-end pipeline from **raw data → ML model → evaluation**
+- **MLflow integration** for experiment tracking
+- **Databricks/PySpark compatibility**, but also runs locally with scikit-learn
+- Clean, modular code so you can swap in your own dataset
 
-## Struktur
-```
-notebooks/       -> Demo Notebooks
-src/             -> Datenvorbereitung, Training, Evaluation
-mlruns/          -> MLflow Experimente
-```
-        
+---
+
+## 🛠 Tech Stack
+- **Python 3.10+**
+- **scikit-learn** for modeling
+- **PySpark** (optional, for scalable data prep)
+- **MLflow** for experiment tracking
+- **pandas** & **matplotlib** for EDA & visualization
+
+---
+
+## 📂 Project Structure
